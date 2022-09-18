@@ -36,7 +36,11 @@ This package should theoretically work on any Linux distribution with ffmpeg ins
 
 ## Usage
 
-After installation, open up the GNOME settings application (aka `gnome-control-center`) and navigate to the Appearance tab. The backgrounds should appear, along with the default GNOME backgrounds, assuming they are installed.
+After installation, file managers should automatically use the thumbnailer to give new files a thumbnail. To also give existing files a thumbnail, clear the thumbnail cache
+```
+$ rm -rf ~/.thumbnails
+$ rm -rf ~/.cache/thumbnails
+```
 
 ## Building from source
 
@@ -45,7 +49,7 @@ Dependencies:
   - `make` (at buildtime)
   - `ffmpeg` (at runtime)
 
-To install the thumbnailer, run:
+To install the thumbnailer, run
 ```
 # make PREFIX=/usr install
 ```
