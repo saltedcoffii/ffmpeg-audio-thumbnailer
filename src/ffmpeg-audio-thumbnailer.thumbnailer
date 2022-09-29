@@ -1,5 +1,4 @@
 [Thumbnailer Entry]
 TryExec=ffmpeg
 Exec=ffmpeg -i %i %o -fs %s
-MimeType=audio/mpeg;audio/mpeg3;audio/mp3;audio/x-mp3;audio/x-mpeg3;audio/flac;audio/x-flac;audio/wavpack;audio/x-wavpack;audio/webm;audio/x-webm;audio/mp4;audio/aac
-
+MimeType=audio/mpeg;audio/flac;audio/wavpack;audio/webm;audio/mp4;audio/aac
