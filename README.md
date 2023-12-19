@@ -21,7 +21,7 @@ You may also install manually using [makepkg](https://wiki.archlinux.org/title/M
 $ git clone https://aur.archlinux.org/ffmpeg-audio-thumbnailer.git --depth 1
 $ cd ffmpeg-audio-thumbnailer
 $ makepkg -s --asdeps
-# pacman -U ffmpeg-audio-thumbnailer-*-any.pkg.tar.zst
+# pacman -U ffmpeg-audio-thumbnailer-*-any.pkg.tar.*
 ```
 
 Manjaro users: You can install using [pamac (aka Add/Remove Software)](https://wiki.manjaro.org/index.php?title=Pamac).
