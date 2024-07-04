@@ -1,4 +1,4 @@
 [Thumbnailer Entry]
 TryExec=ffmpeg
-Exec=ffmpeg -y -i %i %o -fs %s
+Exec=ffmpeg -y -i %i -frames:v 1 -update 1 -vf scale=%s:-1 %o
 MimeType=audio/mpeg;audio/flac;audio/wavpack;audio/webm;audio/mp4;audio/aac;audio/x-matroska;audio/x-opus+ogg
